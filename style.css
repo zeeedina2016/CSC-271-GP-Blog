@@ -1,0 +1,21 @@
+@font-face{
+	font-family: news;
+	/*src: url(news.otf);*/
+}
+body{
+	font-family: helvetica;
+
+}
+#title{background-color: red;
+color:white;}
+
+.subtitle{
+		font-family: news;
+		color: black;
+}
+button{
+	height: 30px;
+}
+li{
+	line-height: 20px;
+}
