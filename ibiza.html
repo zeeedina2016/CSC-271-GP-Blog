@@ -14,26 +14,29 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css?family=Homemade+Apple&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Advent+Pro&display=swap" rel="stylesheet">
 </head>
 <style>
 a:hover {
   color: #006400;
   text-decoration: none;
 }
-
+/* These are the fonts used for each part of the website */
 h4{
     font-family: 'Alegreya Sans', sans-serif;
 }
 
 p{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Advent Pro', sans-serif;
 }
 
-h1{
+h3{
     font-family: 'Homemade Apple', cursive;
-    font-size: 100px;
+    font-size: 30px;
 }
+
+
+/*This is used for the line/dots  on  the page in ibiza */
 hr{
   border-style: none;
   border-top-style: dotted;
@@ -42,12 +45,14 @@ hr{
   width: 10%;
 }
 
+/*This is used for the images, so it gives a set dimension on each part of the pages*/
 img {
     width: 100%; /* You can set the dimensions to whatever you want */
     height: 50%;
     object-fit: cover;
 }
 
+/*This is the first hero picture*/
 .hero{
   width: 100vw;
   height: 100vh;
@@ -64,6 +69,8 @@ img {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+/*This is the second hero picture*/
 .hero2{
   width: 100vw;
   height: 100vh;
@@ -80,6 +87,8 @@ img {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+/*This is the third hero image*/
 .hero3{
   width: 100vw;
   height: 100vh;
@@ -97,21 +106,27 @@ img {
   background-attachment: fixed;
 }
 
+/**The part that makes the page look nice is done! **/
+
+
 </style>
 <body>
     THIS IS THE BLOGGY PART
     <br>
+    <!-- This is the first hero image with the word Ibiza written on it-->
     <section class="hero">
             <div class="hero-inner">
                 <h1>Ibiza</h1>
             </div>
     </section> 
+    <!-- This is the second image on the page-->
     <section class="hero3">
             <div class="hero-image">
             </div>
         </section> 
 
     <div class= "container">
+        <!--This is the start of the writing part of the blog-->
         <br>
         <p><center>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget gravida cum sociis natoque penatibus et magnis dis parturient. Eu feugiat pretium nibh ipsum. Laoreet sit amet cursus sit amet dictum sit. Amet nisl purus in mollis nunc sed id. Sagittis id consectetur purus ut. Sed pulvinar proin gravida hendrerit lectus a. Nulla pharetra diam sit amet nisl suscipit adipiscing bibendum est. Commodo ullamcorper a lacus vestibulum sed arcu. Proin fermentum leo vel orci porta.</center></p>
         <hr>
@@ -123,76 +138,140 @@ img {
         <P><center>Vicky</center>
         </P>
         <br>
+        <!--This is the ending of the written part of the blog-->
+        <!-- This is where the pictures are arranged using bootsrtap grids-->
+        <!-- This is the first row-->
         <div class ="row">
             <div class = "col-md-6" >
-                <img src="ibiza2.jpg" class="img-responsive fit-image">
+                <img src="ibiza2.jpg" alt="picture of ibiza" class="img-responsive fit-image">
         
         
             </div>
 
             <div class = "col-md-6" >
-                <img src="ibiza3.jpg" class="img-responsive fit-image"> 
+                <img src="ibiza3.jpg" alt="picture of ibiza" class="img-responsive fit-image"> 
         
             </div>
         </div>
         <br>
-    
+    <!--This is the second row -->
         <div class ="row">
             <div class = "col-md-4" >
-                <img src="ibiza4.jpg" class="img-responsive fit-image">
+                <img src="ibiza4.jpg" alt="picture of ibiza" class="img-responsive fit-image">
           
         
             </div>
 
             <div class = "col-md-4" >
-                <img src="ibiza6.jpg" class="img-responsive fit-image"> 
+                <img src="ibiza6.jpg" alt="picture of ibiza"  class="img-responsive fit-image"> 
          
         
             </div>
             <div class = "col-md-4" >
-                <img src="ibiza5.jpg" class="img-responsive fit-image"> 
+                <img src="ibiza5.jpg" alt="picture of ibiza" class="img-responsive fit-image"> 
  
         
             </div>
         </div>
         <br>
-    
+    <!--This is the third row -->
         <div class ="row">
                 <div class = "col-md-6" >
-                    <img src="ibiza10.jpg" class="img-responsive fit-image">
+                    <img src="ibiza10.jpg" alt="picture of ibiza" class="img-responsive fit-image">
             
             
                 </div>
     
                 <div class = "col-md-6" >
-                    <img src="ibiza11.jpg" class="img-responsive fit-image"> 
+                    <img src="ibiza11.jpg" alt="picture of ibiza" class="img-responsive fit-image"> 
             
                 </div>
         </div>
         <br>
-    
+    <!-- This is the fourth row-->
         <div class ="row">
                 <div class = "col-md-4" >
-                    <img src="ibiza7.jpg" class="img-responsive fit-image">
+                    <img src="ibiza7.jpg" alt="picture of ibiza" class="img-responsive fit-image">
               
             
                 </div>
     
                 <div class = "col-md-4" >
-                    <img src="ibiza9.jpg" class="img-responsive fit-image"> 
+                    <img src="ibiza9.jpg" alt="picture of ibiza" class="img-responsive fit-image"> 
              
             
                 </div>
                 <div class = "col-md-4" >
-                    <img src="ibiza8.jpg" class="img-responsive fit-image"> 
+                    <img src="ibiza8.jpg" alt="picture of ibiza" class="img-responsive fit-image"> 
      
             
                 </div>
             </div>
     </div>
     <br>
+    <br>
+    <br>
+    <!--This is the end of the the grids!-->
+    <!-- This is the comment section (its in the works)
+    <center><h3>Comments</h3></center>
+    <form action="" method="POST">
+    <div class="comment">
+        Name:<br>
+        <input type="text" name="name" >
+        <br>
+        Email: <br>
+        <input type="email" name="email" >
+        <br>
+        Comment: <br>
+        <textarea id="title" type="text "rows="3" cols="90" onkeyup="Allow()" placeholder="Talk to me!"></textarea>
+        <input type="submit" value="Post" onclick="insert()" style="width:50px;" />
+        </div>
+        <div id="display"></div>
+
+    </form>
+-->
+
+<script type="text/javascript">
+var titles = [];
+var titleInput = document.getElementById("title");
+var nameInput = document.getElementById("name")
+var emailInput = document.getElementById("email")
+var messageBox = document.getElementById("display");
+
+function Allow(){
+    if (!user.title.value.match(/[a-zA-Z]$/) && user.title.value !=""){
+        user.title.value="";
+        alert("Please Enter only alphabets");
+    }
+    window.location.reload()
+}
+
+function clearAndShow (){
+    titleInput.value = "";
+    messageBox.innerHTML = "";
+    messageBox.innerHTML += " " + titles.join("<br/> ") + "<br/>";
+}
+
+function insert () {
+    titles.push(titleInput.value);
+    clearAndShow();
+}
+
+</script>
+<!-- begin wwww.htmlcommentbox.com -->
+<div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
+<link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+<script type="text/javascript" id="hcb"> 
+/*<!--*/ 
+if(!window.hcb_user){
+    hcb_user={};
+    } 
+    (function(){
+        var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24dvJQxxhll3EIkpRX5yxF1."+"&opts=16862&num=10&ts=1574521133417");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+<!-- end www.htmlcommentbox.com -->
     <section class="hero2">
             <div class="hero-inner">
             </div>
         </section> 
+
 </body>
