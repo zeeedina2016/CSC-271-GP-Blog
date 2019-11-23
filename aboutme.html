@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Advent+Pro|Homemade+Apple&display=swap" rel="stylesheet">
+	
+	<!-- css for styling fonts-->
+	<style>
+		h1{
+			font-family: 'Homemade Apple', cursive;
+			font-size:100px;
+		}
+		
+		.description{
+			font-family: 'Advent Pro', sans-serif;
+			font-size:16px;
+		}
+		.description2{
+			font-family: 'Advent Pro', sans-serif;
+			font-size:17px;
+		}
+		.contactme{
+			outline 5px;
+			outline-color #006400;
+		}
+
+	</style>
+  </head>
+  
+  
+  <body> 
+  </h2>
+      <ul class="nav justify-content-center bg-white border-bottom">
+
+          <li class="nav-item">
+            <a class="nav-link subtitle" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link subtitle" href="aboutme.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link subtitle" href="blog.html">destinations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link subtitle" href="">Bunch of other stuff</a>
+          </li>  
+        </ul>
+      <div class = "row">
+
+    </div>
+	<!-- heading for page-->
+	<h1 class = "text-center">
+		About Me
+	</h1>
+	<br>
+	<br>
+	<!-- bootstrap to get an image and text next to each other-->
+	<div class="container">
+		<div class = "row">
+		<div class="col-md-6">
+			<div class="description">
+			Did you ever hear the tragedy of Darth Plagueis the Wise? I thought not. It's not a story the Jedi would tell you. It's a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life... He had such a knowledge of the dark side that he could even keep the ones he cared about from dying. The dark side of the Force is a pathway to many abilities some consider to be unnatural. He became so powerful... the only thing he was afraid of was losing his power, which eventually, of course, he did. Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep. Ironic, he could save others from death, but not himself.
+			In Coruscant, the Jedi Obi-Wan Kenobi and Anakin Skywalker rescue the Supreme Chancellor Palpatine from the Separatist General Grievous' spaceship and Anakin kills Count Dooku with his light-saber after a fight; however Grievous escapes from the Jedi. When they land on Coruscant, Padmé Amidala comes to tell Anakin that she is pregnant. Soon he has premonitions of his wife dying during the delivery. Palpatine requests that Anakin join the Jedi Council against the will of the members but he is not promoted to Master and stays at the rank of Knight; further they ask him to spy on Palpatine. Anakin is manipulated by Palpatine about the true intentions of the Jedi and is tempted to know the dark side of the Force that could be capable of saving Padmé. Further Palpatine discloses that he is Sith Lord Darth Sidious. What will Anakin do?
+			</div>
+
+		</div>
+		<div class ="col-md-6"> <img src="woman.jpg" class="img-responsive" alt="Responsive image"></div>
+		</div>
+		<br>
+		<br>
+		<br>
+		<!-- bootstrap to get text and an image next to each other-->
+		<div class = "row">
+			<div class = "col-md-6">
+				<img src="blond.jpg" class ="img-responsive" alt = "blond woman from behind">
+			</div>
+			<div class ="col-md-6">
+				<div class="description2">
+				Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way. When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, the
+				</div>
+			</div>
+	</div>
+	<br>
+	<br>
+		<h1 class="text-center">
+			Contact Me
+			</h1>
+	<!-- email form-->
+	<div class="container-fluid">
+		<div class="row">
+		<div class ="contactme">
+		<div class ="col-md-12">
+		<center>
+			<form 
+				action="mailto:dummy1@chamisplace.com"
+				method="POST"
+				enctype="multipart/form-data"
+				name="EmailTestForm">
+
+				Your Name:<br>
+				<input type="text" size="30" name="VisitorName" required><br><br>
+
+				Your Comment:<br>
+				<textarea name="VisitorComment" rows="10" cols="50" required></textarea><br><br>
+
+				<input type="submit" value="Email This Form">
+
+			</form>
+			</div>
+			</div>
+		</div>
+	</div>
+
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
+	
