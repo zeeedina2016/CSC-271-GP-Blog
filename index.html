@@ -10,30 +10,55 @@
     <link rel="stylesheet" href="style.css">
 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <title>HeyVictoria</title>
-  </head>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vicky's Blog</title>
 
+<link href="https://fonts.googleapis.com/css?family=Homemade+Apple&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<style>
+a:hover {
+  color: #006400;
+  text-decoration: none;
+}
+
+h4{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+p{
+    font-family: 'Oswald', sans-serif;
+}
+
+h1{
+    font-family: 'Homemade Apple', cursive;
+    font-size: 50px;
+}
+
+</style>
 
 
 
   <body>
     <div class ="keepTop bg-white">
-      <h1 class = "text-center">
-        BRAND
+      <h1 class = "text-center pt-3 pb-2">
+        heyVictoria
       </h1>
       <ul class="nav justify-content-center bg-white border-bottom">
 
-          <li class="nav-item">
-            <a class="nav-link subtitle" href="#">Home</a>
+          <li class="nav-item active">
+            <a class="nav-link subtitle" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link subtitle" href="#">About</a>
+            <a class="nav-link subtitle" href="blog.html">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link subtitle" href="#">Contact</a>
+            <a class="nav-link subtitle" href="aboutme.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link subtitle" href="#">Bunch of other stuff</a>
+            <a class="nav-link subtitle" href="ibiza.html">Latest post</a>
           </li>  
         </ul>
       <div class = "row">
@@ -46,10 +71,10 @@
 
   <div class="row">
     <div class="col-6">
-    <p class = "blind">fucking asshole bitch shite fuck fuck dsahudigirelauilefhfuewahfue il awhufihewauifh uiwahfuewhuifhewaiuhfeuwihui So this story happened a few weeks ago at a Starbucks. Excuse my English as it's my 2.5th language. TL;DR at the bottom. So without further ado, meet the cast:
-Me: Me (dUh) EM: Entitled Mother EK: Entitled Kid NB: Nice barista HGF: Hot Girlfriend EMH: Entitled Mother's Husband
-Ok, so basically, I was at Starbucks with my HGF right? We got our drinks from NB and we sat at a table. A few moments later EK came over and grabbed HGF's Lou
-Edit 6: Formatting</p>
+    <p class = "blind align-middle">
+    <h1 class="display-4 text-white pb-3" id = "You">You are here.</h1><p class="pb-3" id = "You">I, Victoria, hereby do solemnly swear-declare upon my grave that all my travels are interesting enough to blog about.</p>
+    <a class="btn btn-primary" id="You" href="blog.html" role="button">Enter the blog</a>
+    </p>
     </div>
   </div>
 <!-- 
@@ -70,5 +95,59 @@ Edit 6: Formatting</p>
       d = n.getDate();
       document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
     </script>
-  </body>
+    <footer class="page-footer font-small white bg-white keepTop" id = "footer"> 
+    <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-md-0 mb-6">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="blog.html">Blog</a>
+          </li>
+          <li>
+            <a href="aboutme.html">About</a>
+          </li>
+          <li>
+            <a href="ibiza.html">Latest post</a>
+          </li>
+          <li>
+            <a href="https://www.heynadine.com">Inspiration</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">The end is nigh</h5>
+        <p>And by the end, we mean the end of this page.</p>
+
+      </div>
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2019 Copyright: heyvictoria.com
+  </div>
+  <!-- Copyright -->
+    </footer> 
+    </body>
 </html>
