@@ -1,20 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vicky's Blog</title>
-    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 
-<!-- Optional theme -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css?family=Homemade+Apple&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Advent+Pro&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
 </head>
 <style>
 a:hover {
@@ -27,12 +33,12 @@ h4{
 }
 
 p{
-    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
-h3{
+h1{
     font-family: 'Homemade Apple', cursive;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 
@@ -111,12 +117,34 @@ img {
 
 </style>
 <body>
-    THIS IS THE BLOGGY PART
+     <div class ="keepTop bg-white">
+      <h1 class = "text-center pt-3 pb-2">
+        heyVictoria
+      </h1>
+      <ul class="nav justify-content-center bg-white">
+
+          <li class="nav-item">
+            <a class="nav-link subtitle" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link subtitle" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link subtitle" href="aboutme.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link subtitle" href="ibiza.html">Latest post</a>
+          </li>  
+        </ul>
+      <div class = "row">
+
+    </div>
+  </div>
     <br>
     <!-- This is the first hero image with the word Ibiza written on it-->
     <section class="hero">
             <div class="hero-inner">
-                <h1>Ibiza</h1>
+                <h1 style = "font-size: 100px; color:white">Ibiza</h1>
             </div>
     </section> 
     <!-- This is the second image on the page-->
@@ -273,5 +301,58 @@ if(!window.hcb_user){
             <div class="hero-inner">
             </div>
         </section> 
+    <footer class="page-footer font-small white bg-white keepTop" id = "footer"> 
+    <div class="container-fluid text-center text-md-left">
 
+    <!-- Grid row -->
+    <div class="row">
+
+
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-md-0 mb-6">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="blog.html">Blog</a>
+          </li>
+          <li>
+            <a href="aboutme.html">About</a>
+          </li>
+          <li>
+            <a href="ibiza.html">Latest post</a>
+          </li>
+          <li>
+            <a href="https://www.heynadine.com">Inspiration</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">The end is nigh</h5>
+        <p>And by the end, we mean the end of this page.</p>
+
+      </div>
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2019 Copyright: heyvictoria.com
+  </div>
+  <!-- Copyright -->
+    </footer>
 </body>

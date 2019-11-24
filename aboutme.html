@@ -21,49 +21,65 @@
 
 	<!-- css for styling fonts-->
 	<style>
-		h1{
-			font-family: 'Homemade Apple', cursive;
-			font-size:100px;
-		}
+a:hover {
+  color: #006400;
+  text-decoration: none;
+}
 
-		.description{
-			font-family: 'Advent Pro', sans-serif;
-			font-size:16px;
-		}
-		.description2{
-			font-family: 'Advent Pro', sans-serif;
-			font-size:17px;
-		}
-		.contactme{
-			outline 5px;
-			outline-color #006400;
-		}
+h1{
+    font-family: 'Homemade Apple', cursive;
+    font-size: 50px;
+}
+
+h4{
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.hero{
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  background-image: url(vacay.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 	</style>
   </head>
 
 
   <body>
-  </h2>
-      <ul class="nav justify-content-center bg-white border-bottom">
-
-          <li class="nav-item">
+<div class ="keepTop bg-white">
+      <h1 class = "text-center pt-3 pb-2" style="font-size: 50px;">
+        heyVictoria
+      </h1>
+      <ul class="list-inline bg-white" style = "justify-content:center;  font-size: 16px; padding-top:15px; text-align: center;list-style: inside;">
+          <li class="list-inline-item active">
             <a class="nav-link subtitle" href="index.html">Home</a>
           </li>
-          <li class="nav-item">
+          <li class="list-inline-item">
+            <a class="nav-link subtitle" href="blog.html">Blog</a>
+          </li>
+          <li class="list-inline-item">
             <a class="nav-link subtitle" href="aboutme.html">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link subtitle" href="blog.html">destinations</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link subtitle" href="">Bunch of other stuff</a>
-          </li>
+          <li class="list-inline-item">
+            <a class="nav-link subtitle" href="ibiza.html">Latest post</a>
+          </li>  
         </ul>
       <div class = "row">
 
     </div>
-	<!-- heading for page-->
+  </div> 
+  
 	<h1 class = "text-center">
 		About Me
 	</h1>
@@ -79,7 +95,7 @@
 			</div>
 
 		</div>
-		<div class ="col-md-6"> <img src="Optimized-woman.jpg" class="img-responsive" alt="Responsive image"></div>
+		<div class ="col-md-6"> <img src="Optimized-woman.jpg" class="img-responsive" alt="Woman wearing hat"></div>
 		</div>
 		<br>
 		<br>
@@ -130,5 +146,59 @@
     <script src="jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
+        <footer class="page-footer font-small white bg-white keepTop" id = "footer"> 
+    <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-md-0 mb-6">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="blog.html">Blog</a>
+          </li>
+          <li>
+            <a href="aboutme.html">About</a>
+          </li>
+          <li>
+            <a href="ibiza.html">Latest post</a>
+          </li>
+          <li>
+            <a href="https://www.heynadine.com">Inspiration</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">The end is nigh</h5>
+        <p>And by the end, we mean the end of this page.</p>
+
+      </div>
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2019 Copyright: heyvictoria.com
+  </div>
+  <!-- Copyright -->
+    </footer>
   </body>
 </html>
