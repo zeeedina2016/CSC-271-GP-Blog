@@ -10,7 +10,7 @@ body{
 color:white;}
 
 .subtitle{
-		font-family: news;
+		font-family: helvetica;
 		color: black;
 }
 button{
@@ -18,4 +18,36 @@ button{
 }
 li{
 	line-height: 20px;
+}
+.blind{
+	padding-left: 3000px;
+	margin-left: -3000px;
+	background-color: #006400;
+	color: white;
+	padding-top: 500px;
+	margin-top: -450px;
+	padding-bottom: 500px;
+	margin-bottom: -500px;
+	opacity:0.8;
+	z-index:1;
+	position: relative;
+}
+.jumbotron{
+  background-image: url("hiker.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 500px;
+}
+.keepTop{
+	position:relative;
+	z-index:1100;
+}
+#You{
+	position:relative;
+	z-index:1000;
+	color: white;
+}
+#footer{
+		padding-top: 50px;
+	margin-top: -45px;
 }
