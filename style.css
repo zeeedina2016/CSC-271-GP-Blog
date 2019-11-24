@@ -3,14 +3,12 @@
 	/*src: url(news.otf);*/
 }
 body{
-	font-family: helvetica;
 
 }
 #title{background-color: red;
 color:white;}
 
 .subtitle{
-		font-family: helvetica;
 		color: black;
 }
 button{
@@ -48,6 +46,7 @@ li{
 	color: white;
 }
 #footer{
-		padding-top: 50px;
+	padding-top: 50px;
 	margin-top: -45px;
+	text-align: left;
 }
